@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.resume{
+    height: 297mm;
+    width: 210mm;
+    background-color: #d7b896;
+    margin: auto;
+    padding: 3rem 3rem 2.4rem 3rem; 
+    
+}
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.name1 h1{
+    color: #3e2219;
+    font-size: 4rem;
+    font-family: 'Sometype Mono', monospace;
+}
+.name h2{
+    background-color: #7f8094;
+    display: inline-block;
+    padding: 2%;
+    border-radius: em;
+}
+
+.name2 img{
+
+    border-radius: 50%;
+}
+.vertical-line{
+    border-left: 2px solid #d7b896;
+    display: inline-block;
+    margin: 0 20px;
+  }
+.container{
+    display: flex;
+}
+.container h2{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sometype Mono', monospace;
+    color: rgb(20, 17, 18);
+}
+.container1{
+    background-color: rgb(234, 236, 240);
+    padding: 1rem;
+    width: 70rem;
+}
+.container1 hr{
+    border: 1px solid DimGray;
+    margin: 0 0 1rem 0;
+}
+.contact p{
+    padding: 2%;
+}
+.contact a{
+    color: rgb(20, 17, 18);
+    text-decoration: none;
+}
+.logo{
+    margin-bottom: 1rem;
+}
+.logo a,p{
+    font-family: 'Kanit', sans-serif;
+}
+.mail{
+    display: flex;
+}
+.number{
+    display: flex;
+}
+.linkedin{
+    display: flex;
+}
+.github{
+    display: flex;
+}
+.logo1{
+    padding: 2%;
+}
+.logo2{
+    padding: 3%;
+}
+.lists{
+    padding: 0 1.5rem;
+    font-family: 'Kanit', sans-serif;
+}
+.skills{
+    margin: 0 0 1rem 0;
+}
+.certificate{
+    margin: 0 0 1rem 0;
+}
+.container2{
+    padding: 3rem 0 0 0;
+}
+.container2 h2{
+    background-color: rgb(127, 128, 148);
+    padding: 1% 2% ;
+    font-size: medium;
+}
+.profile p{
+    text-align: justify;
+    padding: 2rem 0;
+}
+.project li{
+    padding: 4% 0 0 0;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Sometype Mono', monospace; */
+    color: rgb(20, 17, 18);
+    font-size: .9rem;
+}
+.project p{
+    text-align: justify;
+    padding-left: 1.2rem;
+}
+.project{
+    margin-bottom: 2rem;
+}
